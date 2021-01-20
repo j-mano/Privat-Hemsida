@@ -12,12 +12,12 @@ namespace Backend_Processing.DataAcess
 {
     internal static class SqlDataAcess
     {
-        public static string GetConnectionString(string connectionName = "DataBaseJoachimMainWebbsite")
+        private static string GetConnectionString(string connectionName = "DataBaseJoachimMainWebbsite")
         {
             return ConfigurationManager.ConnectionStrings[connectionName].ConnectionString;
         }
 
-        public static List<T> asyncLoadData<T>(string sql)
+        internal static List<T> asyncLoadData<T>(string sql)
         {
             using (IDbConnection cnn = new SqlConnection(GetConnectionString()))
             {
@@ -49,7 +49,7 @@ namespace Backend_Processing.DataAcess
             }
         }
 
-        public static int SaveData<T>(string sql, T data)
+        internal static int SaveData<T>(string sql, T data)
         {
             // Getting connectionString and trying to conect to server as an async task. Exeptions is expteted to be handled in high lvl function that have acess to user interface.
                 using (IDbConnection cnn = new SqlConnection(GetConnectionString()))

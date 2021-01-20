@@ -14,3 +14,9 @@ C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\p
 C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\predeploy.sql
 C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\ProjectDatabase.dll
 C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\ProjectDatabase.pdb
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ProjectDatabase\bin\Debug\ProjectDatabase.dacpac
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ProjectDatabase\bin\Debug\ProjectDatabase.dll
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ProjectDatabase\bin\Debug\ProjectDatabase.pdb
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ProjectDatabase\obj\Debug\ProjectDatabase.sqlprojAssemblyReference.cache
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ProjectDatabase\obj\Debug\ProjectDatabase.dll
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ProjectDatabase\obj\Debug\ProjectDatabase.pdb

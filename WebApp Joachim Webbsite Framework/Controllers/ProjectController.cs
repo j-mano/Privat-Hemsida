@@ -134,12 +134,8 @@ namespace WebApp_Joachim_Webbsite_Framework.Controllers
             }
         }
 
-        public LoadProject LoadProject(int id)
+        public LoadProject LoadSpecifikProject(int ProjectID)
         {
-            List<Backend_Processing.BackendProjectListProcessModel> backendmodel = new List<Backend_Processing.BackendProjectListProcessModel>();
-
-            
-
             throw new NotImplementedException();
         }
     }
