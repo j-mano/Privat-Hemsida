@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Joachim_Hemsida.Models.FrontendProjectListModel>
+
+@{
+    ViewBag.Title = "Joachims olika projekt";
+}
+
+<h2>@ViewBag.Title</h2>
+<p>@ViewBag.NumbOfProjects</p>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.idInDatabase)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.projectName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.initalDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.lastUpdatedDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.projectDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.programingLangugeWritenwidth)
+        </th>
+        <th></th>
+    </tr>
+    
+    @foreach(var item in Model)
+    {
+      <tr>
+         <td>
+             @Html.DisplayFor(modelItem => item.idInDatabase)
+         </td>
+         <td>
+             @Html.DisplayFor(modelItem => item.projectName)
+         </td>
+         <td>
+             @Html.DisplayFor(modelItem => item.initalDate)
+         </td>
+         <td>
+             @Html.DisplayFor(modelItem => item.lastUpdatedDate)
+         </td>
+         <td>
+             @Html.DisplayFor(modelItem => item.projectDescription)
+         </td>
+         <td>
+             @Html.DisplayFor(modelItem => item.programingLangugeWritenwidth)
+         </td>
+         <td>
+             @Html.ActionLink("Edit", "Edit", new { item.idInDatabase }) |
+             @Html.ActionLink("Details", "Details", new { item.idInDatabase }) |
+             @Html.ActionLink("Delete", "Delete", new { item.idInDatabase })
+         </td>
+       </tr>
+     }
+</table>

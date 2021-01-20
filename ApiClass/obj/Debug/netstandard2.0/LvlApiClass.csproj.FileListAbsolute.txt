@@ -1,0 +1,36 @@
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.deps.json
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.dll
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.pdb
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\Backend_Processing.dll
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\Backend_Processing.pdb
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csprojAssemblyReference.cache
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.AssemblyInfoInputs.cache
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.AssemblyInfo.cs
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csproj.CoreCompileInputs.cache
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csproj.CopyComplete
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.dll
+C:\Users\Joachim\source\repos\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.pdb
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.deps.json
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.dll
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.pdb
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\Backend_Processing.dll
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\bin\Debug\netstandard2.0\Backend_Processing.pdb
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csprojAssemblyReference.cache
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.AssemblyInfoInputs.cache
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.AssemblyInfo.cs
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csproj.CoreCompileInputs.cache
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csproj.CopyComplete
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.dll
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.pdb
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.deps.json
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.dll
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\bin\Debug\netstandard2.0\LvlApiClass.pdb
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\bin\Debug\netstandard2.0\Backend_Processing.dll
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\bin\Debug\netstandard2.0\Backend_Processing.pdb
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csprojAssemblyReference.cache
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.AssemblyInfoInputs.cache
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.AssemblyInfo.cs
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csproj.CoreCompileInputs.cache
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.csproj.CopyComplete
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.dll
+C:\Users\Joachim\source\repos\WebApp Joachim Webbsite Framework\ApiClass\obj\Debug\netstandard2.0\LvlApiClass.pdb

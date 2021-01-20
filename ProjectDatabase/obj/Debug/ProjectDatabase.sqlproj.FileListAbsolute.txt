@@ -1,0 +1,16 @@
+C:\Users\Joachim\source\repos\Joachim Hemsida\ProjectDatabase\bin\Debug\ProjectDatabase.dacpac
+C:\Users\Joachim\source\repos\Joachim Hemsida\ProjectDatabase\bin\Debug\ProjectDatabase.dll
+C:\Users\Joachim\source\repos\Joachim Hemsida\ProjectDatabase\bin\Debug\ProjectDatabase.pdb
+C:\Users\Joachim\source\repos\Joachim Hemsida\ProjectDatabase\obj\Debug\ProjectDatabase.sqlprojAssemblyReference.cache
+C:\Users\Joachim\source\repos\Joachim Hemsida\ProjectDatabase\obj\Debug\ProjectDatabase.dll
+C:\Users\Joachim\source\repos\Joachim Hemsida\ProjectDatabase\obj\Debug\ProjectDatabase.pdb
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\bin\Debug\ProjectDatabase.dacpac
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\bin\Debug\ProjectDatabase.dll
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\bin\Debug\ProjectDatabase.pdb
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\ProjectDatabase.sqlprojAssemblyReference.cache
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\Model.xml
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\refactor.xml
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\postdeploy.sql
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\predeploy.sql
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\ProjectDatabase.dll
+C:\Users\Joachim\Documents\utvekling\Joachim Hemsida\ProjectDatabase\obj\Debug\ProjectDatabase.pdb

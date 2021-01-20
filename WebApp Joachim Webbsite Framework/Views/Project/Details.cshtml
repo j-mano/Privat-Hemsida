@@ -1,0 +1,58 @@
+﻿@model Joachim_Hemsida.Models.FrontendProjectListModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>FrontendProjectListModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.projectName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.projectName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.initalDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.initalDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lastUpdatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastUpdatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.projectDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.projectDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.programingLangugeWritenwidth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.programingLangugeWritenwidth)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

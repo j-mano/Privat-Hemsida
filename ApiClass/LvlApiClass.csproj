@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Backend_Processing\Backend_Processing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Apis\WebbGames\" />
+    <Folder Include="Servises\" />
+  </ItemGroup>
+
+</Project>
