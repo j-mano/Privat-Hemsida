@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Web.Mvc;
 using ApiClass.Apis;
 using Backend_Processing.Bussniess_logic.Projects;
-using Backend_Processing.Interfaces;
 using Joachim_Hemsida.Models;
 
 namespace WebApp_Joachim_Webbsite_Framework.Controllers
 {
-    public class ProjectController : Controller, IGetProject
+    public class ProjectController : Controller
     {
         // GET: Project
         public ActionResult Index()
@@ -132,11 +131,6 @@ namespace WebApp_Joachim_Webbsite_Framework.Controllers
             {
                 return View();
             }
-        }
-
-        public LoadProject LoadSpecifikProject(int ProjectID)
-        {
-            throw new NotImplementedException();
         }
     }
 }
