@@ -167,6 +167,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\PersonalSkillsLvlController.cs" />
     <Compile Include="Controllers\ProjectController.cs" />
     <Compile Include="Controllers\WebbGamesController.cs" />
@@ -220,6 +221,8 @@
     <Content Include="Views\Project\Create.cshtml" />
     <Content Include="Views\PersonalSkillsLvl\Index.cshtml" />
     <Content Include="Views\WebbGames\Index.cshtml" />
+    <Content Include="Views\Home\openLogin.cshtml" />
+    <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

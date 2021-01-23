@@ -30,5 +30,8 @@ namespace Joachim_Hemsida.Models
         [Display(Name = "Programerings Språk")]
         [Required(ErrorMessage = "Var snäll och lägg till språk är du snäll.")]
         public string programingLangugeWritenwidth { get; set; }
+
+        [Display(Name = "Webbsida Länk")]
+        public string WebsiteLink { get; set; }
     }
 }

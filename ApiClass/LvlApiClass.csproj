@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="Apis\WebbGames\" />
-    <Folder Include="Servises\" />
   </ItemGroup>
 
 </Project>

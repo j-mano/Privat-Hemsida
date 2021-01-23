@@ -14,5 +14,6 @@ namespace Backend_Processing
         public DateTime lastUpdatedDate { get; set; }
         public string description { get; set; }
         public string language { get; set; }
+        public string WebsiteLink { get; set; }
     }
 }

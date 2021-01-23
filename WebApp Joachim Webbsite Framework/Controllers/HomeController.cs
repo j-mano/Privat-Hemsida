@@ -49,7 +49,7 @@ namespace WebApp_Joachim_Webbsite_Framework.Controllers
             // view titles and decoration
             ViewBag.Title                   = "Vill komma i kontakt med mig?";
             ViewBag.Message                 = "Här hittar ni allt från direktkontakt med mig samt även sociala medier.";
-            ViewBag.Adress                  = "Slota L:a kardgarden";
+            ViewBag.Adress                  = "Slöta L:a kardgarden";
 
             // Social media.
             ViewBag.LindedinAdress          = "https://www.linkedin.com/in/joachim-johnson-913389133/";
