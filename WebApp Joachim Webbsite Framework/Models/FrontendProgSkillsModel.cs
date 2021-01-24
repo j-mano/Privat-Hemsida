@@ -9,6 +9,5 @@ namespace Joachim_Hemsida.Models
         public string skill { get; set; }
         public int skillLvl { get; set; }
         public string obtaintdFrom { get; set; }
-
     }
 }

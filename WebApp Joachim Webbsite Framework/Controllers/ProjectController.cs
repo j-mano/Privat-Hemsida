@@ -4,6 +4,8 @@ using System.Web.Mvc;
 using ApiClass.Apis;
 using Backend_Processing.Bussniess_logic.Projects;
 using Joachim_Hemsida.Models;
+using WebApp_Joachim_Webbsite_Framework.Models;
+using WebApp_Joachim_Webbsite_Framework.UserCredentials;
 
 namespace WebApp_Joachim_Webbsite_Framework.Controllers
 {
@@ -13,6 +15,11 @@ namespace WebApp_Joachim_Webbsite_Framework.Controllers
         public ActionResult Index()
         {
             List<FrontendProjectListModel> projectsFrontend = new List<FrontendProjectListModel>();
+
+            CredentialModell user = GetUserCredentials.GetUserLoginstatus();
+
+            ViewBag.Login = user.logdin;
+            ViewBag.isAdmin = user.isAdmin;
 
             try
             {

@@ -8,7 +8,7 @@ namespace Backend_Processing.Bussniess_logic.Projects
 {
     public class LoadProject
     {
-        public static BackendProjectListProcessModel LoadSpecifikProject(int ProjectID)
+        public static BackendProjectListProcessModel LoadSpecificAccount(int ProjectID)
         {
             string sqlQuestion = @"select Id, projectName, Description, InitalDate, LastUpdatedDate, language from dbo.projects where id = @ProjectID"; // The Sql question for getting all projects
 

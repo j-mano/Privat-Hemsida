@@ -10,7 +10,7 @@ namespace ApiClass.Apis
         {
             ApiProjectApiModel Project = new ApiProjectApiModel();
 
-            Backend_Processing.Bussniess_logic.Projects.LoadProject.LoadSpecifikProject(id);
+            Backend_Processing.Bussniess_logic.Projects.LoadProject.LoadSpecificAccount(id);
 
             return Project;
         }

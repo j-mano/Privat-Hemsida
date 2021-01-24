@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApp_Joachim_Webbsite_Framework.Models;
+using WebApp_Joachim_Webbsite_Framework.UserCredentials;
 
 namespace WebApp_Joachim_Webbsite_Framework.Controllers
 {
@@ -22,6 +24,15 @@ namespace WebApp_Joachim_Webbsite_Framework.Controllers
             // Velcome to webbsite
             ViewBag.SecondParagrafpTxtDescription   = "Välkomna";
             ViewBag.SecondParagrafpTxt              = "Känn er välkomna att kolla runt på hemsidan med olika projekt jag har gjort eller hitta min linkedin och andra sociala medier på kontakta mig";
+
+
+            CredentialModell user = GetUserCredentials.GetUserLoginstatus();
+
+            // LoginAccount
+            ViewBag.loginUserName       = "User: " + user.username;
+            ViewBag.Logdin              = "Logdin Status: " + user.logdin;
+            ViewBag.Email               = "Email: " + user.email;
+            ViewBag.isAdmin             = "Has admin rights " + user.isAdmin;
 
             return View();
         }
