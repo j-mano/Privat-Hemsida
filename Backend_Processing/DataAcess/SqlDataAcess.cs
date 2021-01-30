@@ -17,7 +17,7 @@ namespace Backend_Processing.DataAcess
             return ConfigurationManager.ConnectionStrings[connectionName].ConnectionString;
         }
 
-        internal static List<T> asyncLoadData<T>(string sql)
+        internal static List<T> LoadData<T>(string sql)
         {
             using (IDbConnection cnn = new SqlConnection(GetConnectionString()))
             {

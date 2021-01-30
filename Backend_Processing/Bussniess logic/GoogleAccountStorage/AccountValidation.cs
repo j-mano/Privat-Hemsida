@@ -7,7 +7,7 @@ namespace Backend_Processing.Bussniess_logic.GoogleAccountStorage
 {
     public class AccountValidation
     {
-        public static bool ValidatAccount(string email, string gender)
+        public static bool ValidatAccount(string email)
         {
             bool returnValidationBool = false;
 
@@ -16,11 +16,8 @@ namespace Backend_Processing.Bussniess_logic.GoogleAccountStorage
             try
             {
                 DatabaseAccount = Backend_Processing.Bussniess_logic.GoogleAccountStorage.GetAccount.LoadSpecificAccount(email);
-
-                if (DatabaseAccount.gender == gender)
-                {
-                    returnValidationBool = true;
-                }
+                
+                returnValidationBool = true;
             }
             catch
             {

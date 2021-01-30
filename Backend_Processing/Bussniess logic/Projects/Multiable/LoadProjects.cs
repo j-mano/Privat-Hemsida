@@ -11,7 +11,7 @@ namespace Backend_Processing.Bussniess_logic
         {
             string sqlQuestion = @"Select Id, projectName, Description, InitalDate, LastUpdatedDate, language from dbo.Projects"; // The Sql question for getting all projects
 
-            return SqlDataAcess.asyncLoadData<BackendProjectListProcessModel>(sqlQuestion);
+            return SqlDataAcess.LoadData<BackendProjectListProcessModel>(sqlQuestion);
         }
     }
 }

@@ -7,5 +7,6 @@ namespace Backend_Processing.Bussniess_logic.GoogleAccountStorage
 {
     class GetAccounts
     {
+        //Todo: implement mass check by accounts.
     }
 }

@@ -7,13 +7,9 @@ namespace LvlApiClass.Apis.Accounts
 {
     public class ValidateAccount
     {
-        public static bool ValidateAccountApi(string email, string gender)
+        public static bool ValidateAccountApi(string email)
         {
-            bool returnValidationBool;
-
-            returnValidationBool = Backend_Processing.Bussniess_logic.GoogleAccountStorage.AccountValidation.ValidatAccount(email, gender);
-
-            return returnValidationBool;
+            return Backend_Processing.Bussniess_logic.GoogleAccountStorage.AccountValidation.ValidatAccount(email);
         }
     }
 }

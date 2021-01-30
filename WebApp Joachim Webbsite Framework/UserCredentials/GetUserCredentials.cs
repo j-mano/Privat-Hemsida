@@ -27,7 +27,7 @@ namespace WebApp_Joachim_Webbsite_Framework.UserCredentials
                 Storage.username = firstname.Substring(0, 3);
                 Storage.logdin = true;
 
-                isAdmin(InputStorage);
+                isAdmin();
             }
             catch(InvalidCastException e)
             {
@@ -35,9 +35,9 @@ namespace WebApp_Joachim_Webbsite_Framework.UserCredentials
             }
         }
 
-        private static void isAdmin(CredentialModell InputStorage)
+        private static void isAdmin()
         {
-            bool databaseValidated = LvlApiClass.Apis.Accounts.ValidateAccount.ValidateAccountApi(InputStorage.email, InputStorage.gender);
+            bool databaseValidated = LvlApiClass.Apis.Accounts.ValidateAccount.ValidateAccountApi(Storage.email);
 
             if (databaseValidated)
             {

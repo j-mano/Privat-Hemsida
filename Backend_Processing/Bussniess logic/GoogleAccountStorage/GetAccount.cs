@@ -8,9 +8,9 @@ namespace Backend_Processing.Bussniess_logic.GoogleAccountStorage
 {
     internal class GetAccount
     {
-        public static BackendAccount LoadSpecificAccount(string Email)
+        public static BackendAccount LoadSpecificAccount(string AcountAdress)
         {
-            string sqlQuestion = @"select AcountAdress, gender, isAdmin from dbo.projects where AcountAdress = @Email"; // The Sql question for getting all projects
+            string sqlQuestion = @"select AcountAdress, gender, isAdmin from dbo.GoogleAccounts where AcountAdress = '@AcountAdress'";
 
             // todo: Check if sql question is a bvalid sql question as expecteed.
 
@@ -19,7 +19,7 @@ namespace Backend_Processing.Bussniess_logic.GoogleAccountStorage
 
             try
             {
-                lists = SqlDataAcess.asyncLoadData<BackendAccount>(sqlQuestion);
+                lists = SqlDataAcess.LoadData<BackendAccount>(sqlQuestion);
 
                 foreach (var Account in lists)
                 {

@@ -10,21 +10,29 @@ namespace Backend_Processing.Bussniess_logic.Projects
     {
         public static BackendProjectListProcessModel LoadSpecificAccount(int ProjectID)
         {
-            string sqlQuestion = @"select Id, projectName, Description, InitalDate, LastUpdatedDate, language from dbo.projects where id = @ProjectID"; // The Sql question for getting all projects
+            string sqlQuestion = @"select Id, projectName, Description, InitalDate, LastUpdatedDate, language from dbo.Projects where id = " + ProjectID + ";"; // The Sql question for getting all projects
 
             // todo: check if sql question is a bvalid sql question as expecteed.
 
-            List<BackendProjectListProcessModel> lists = SqlDataAcess.asyncLoadData<BackendProjectListProcessModel>(sqlQuestion);
+            List<BackendProjectListProcessModel> projectList    = new List<BackendProjectListProcessModel>();
+            BackendProjectListProcessModel chosenProject        = new BackendProjectListProcessModel();
 
-            BackendProjectListProcessModel chosenProject = new BackendProjectListProcessModel();
-
-            foreach (var Project in lists)
+            try
             {
-                chosenProject.projectName = Project.projectName;
-                chosenProject.description = Project.description;
-                chosenProject.initalDate = Project.initalDate;
-                chosenProject.lastUpdatedDate = Project.lastUpdatedDate;
-                chosenProject.language = Project.language;
+                projectList = SqlDataAcess.LoadData<BackendProjectListProcessModel>(sqlQuestion);
+
+                foreach (var Project in projectList)
+                {
+                    chosenProject.projectName           = Project.projectName;
+                    chosenProject.description           = Project.description;
+                    chosenProject.initalDate            = Project.initalDate;
+                    chosenProject.lastUpdatedDate       = Project.lastUpdatedDate;
+                    chosenProject.language              = Project.language;
+                }
+            }
+            catch
+            {
+                chosenProject.projectName = "Could not load from database.";
             }
 
             return chosenProject;

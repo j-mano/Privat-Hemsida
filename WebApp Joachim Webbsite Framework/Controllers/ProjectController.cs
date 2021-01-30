@@ -49,7 +49,7 @@ namespace WebApp_Joachim_Webbsite_Framework.Controllers
         }
 
         // GET: Project/Details
-        public ActionResult Details(int id)
+        public ActionResult Details(FrontendProjectListModel SelectedProject)
         {
             FrontendProjectListModel project = new FrontendProjectListModel();
 
@@ -57,15 +57,16 @@ namespace WebApp_Joachim_Webbsite_Framework.Controllers
             {
                 //ApiClass.ApiProjectApiModel loadedproject = IGetProject.ReferenceEquals;
 
-                ApiClass.ApiProjectApiModel loadedproject = ApiClass.Apis.LoadSpecificProject.LoadSelectedProject(id);
+                ApiClass.ApiProjectApiModel loadedproject = LoadSpecificProject.LoadSelectedProject(SelectedProject.idInDatabase);
 
-                loadedproject = LoadSpecificProject.LoadSelectedProject(id);
+                loadedproject = LoadSpecificProject.LoadSelectedProject(SelectedProject.idInDatabase);
 
                 project.idInDatabase                    = loadedproject.idInDatabase;
                 project.initalDate                      = loadedproject.initalDate;
                 project.lastUpdatedDate                 = loadedproject.lastUpdatedDate;
                 project.projectDescription              = loadedproject.projectDescription;
                 project.programingLangugeWritenwidth    = loadedproject.programingLangugeWritenwidth;
+                project.projectName                     = loadedproject.projectName;
 
                 return View(project);
             }

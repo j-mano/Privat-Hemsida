@@ -26,7 +26,6 @@ namespace WebApp_Joachim_Webbsite_Framework.Controllers
             user.fName      = name;
             user.lName      = lastname;
             user.email      = email;
-            user.gender     = gender;
             user.location   = location; // Location not planed to used at the moment.
 
             saveCredential(user);
